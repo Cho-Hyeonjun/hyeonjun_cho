@@ -111,7 +111,9 @@ section#main p{font-size: 20px;color: #fff;text-align: right;padding: 110px 0px 
 .screen_mo::-webkit-scrollbar-track{background: #e0e0e0}
 
 .img_smeg{position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.5);display: none;justify-content: center;align-items: center;z-index: 9999;}
+.img_smeg p{width: 100%;position:fixed;top: 50px;left:0;color: #fff;font-weight: 300;text-align: center;}
 .img_seolgi{position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.5);display: none;justify-content: center;align-items: center;z-index: 9999;}
+.img_seolgi p{width: 100%;position:fixed;top: 50px;left:0;color: #fff;font-weight: 300;text-align: center;}
 .img_popup_inner{overflow: scroll; width: 80%; height: 80%; cursor: pointer;}
 
 
