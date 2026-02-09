@@ -86,7 +86,7 @@ $(function(){
   });
 });
 
-$(function(){
+/* $(function(){
   $('.pro_cont .cont_tit').on('click', function(e){
     e.preventDefault();
 
@@ -97,7 +97,28 @@ $(function(){
     $slide.stop(true, true).slideToggle(300);
 
   });
+}); */
+
+$('.pro_cont .cont_tit').on('click', function () {
+  const $item = $(this).closest('.pro_cont li');
+  const $body = $item.find('.slide');
+
+  // 이미 열려있는 경우
+  if ($item.hasClass('active')) {
+    $body.slideUp();
+    $item.removeClass('active');
+    return;
+  }
+
+  // 다른 항목 닫기
+  $('.slide').slideUp();
+  $('.pro_cont li').removeClass('active');
+
+  // 현재 항목 열기
+  $body.slideDown();
+  $item.addClass('active');
 });
+
 
 $(function(){
 	//popup
