@@ -120,7 +120,7 @@ section#main p{font-size: 20px;color: #fff;text-align: right;padding: 110px 0px 
 #contact h3 span{font-size: 36px;font-weight: 700;position: relative;margin-right: 20px;}
 #contact h3 span::after{display: block;content: "";width: calc(100% + 20px);position: absolute; bottom: -13px; left: 50%; transform: translate(-50%, -50%);height: 19px;background: #18ff1d;z-index: -1;}
 #contact h3 a{display: inline-block;padding: 0px 12px 2px 31px;background: url(../../images/ico_copy_w.png) no-repeat top 5px left 12px #161616;font-size: 16px;font-weight: 300;color: #fff;border-radius: 7px; transition: all 0.5s;}
-#contact h3 a:hover{color:#18ff1d; background: url(../../images/ico_copy.png);}
+#contact h3 a:hover{color:#18ff1d; background: url(../../images/ico_copy.png) no-repeat top 5px left 12px #161616;}
 #contact p{margin: 40px 0 30px; font-size: 20px; font-weight: 700;}
 #contact ul li a{display: inline-block;padding: 2px 30px;box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.1);border-radius: 10px;font-size: 18px;font-weight: 400;background: #fff;}
 #contact ul li{margin-bottom: 13px;}
