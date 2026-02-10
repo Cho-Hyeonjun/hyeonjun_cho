@@ -134,7 +134,7 @@ i {font-style:normal;}
   font-family: 'against';
   font-style: normal;
   font-weight: 100;
-  src: url('font/against-regular.ttf') format('ttf');
+  src: url('font/against-regular.ttf') format('truetype');
 }
 
 
