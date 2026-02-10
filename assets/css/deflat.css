@@ -79,55 +79,55 @@ i {font-style:normal;}
     font-family: 'Pretendard';
     font-style: normal;
     font-weight: 100;
-    src: url('font/Pretendard-Thin.woff') format('opentype');
+    src: url('font/Pretendard-Thin.woff2') format('opentype');
 }
 @font-face {
     font-family: 'Pretendard';
     font-style: normal;
     font-weight: 200;
-    src: url('font/Pretendard-ExtraLight.woff') format('opentype');
+    src: url('font/Pretendard-ExtraLight.woff2') format('opentype');
 }
 @font-face {
     font-family: 'Pretendard';
     font-style: normal;
     font-weight: 300;
-    src: url('font/Pretendard-Light.woff') format('opentype');
+    src: url('font/Pretendard-Light.woff2') format('opentype');
 }
 @font-face {
     font-family: 'Pretendard';
     font-style: normal;
     font-weight: 400;
-    src: url('font/Pretendard-Regular.woff') format('opentype');
+    src: url('font/Pretendard-Regular.woff2') format('opentype');
 }
 @font-face {
     font-family: 'Pretendard';
     font-style: normal;
     font-weight: 500;
-    src: url('font/Pretendard-Medium.woff') format('opentype');
+    src: url('font/Pretendard-Medium.woff2') format('opentype');
 }
 @font-face {
     font-family: 'Pretendard';
     font-style: normal;
     font-weight: 600;
-    src: url('font/Pretendard-SemiBold.woff') format('opentype');
+    src: url('font/Pretendard-SemiBold.woff2') format('opentype');
 }
 @font-face {
     font-family: 'Pretendard';
     font-style: normal;
     font-weight: 700;
-    src: url('font/Pretendard-Bold.woff') format('opentype');
+    src: url('font/Pretendard-Bold.woff2') format('opentype');
 }
 @font-face {
     font-family: 'Pretendard';
     font-style: normal;
     font-weight: 800;
-    src: url('font/Pretendard-ExtraBold.woff') format('opentype');
+    src: url('font/Pretendard-ExtraBold.woff2') format('opentype');
 }
 @font-face {
     font-family: 'Pretendard';
     font-style: normal;
     font-weight: 900;
-    src: url('font/Pretendard-Black.woff') format('opentype');
+    src: url('font/Pretendard-Black.woff2') format('opentype');
 }
 
 @font-face {
