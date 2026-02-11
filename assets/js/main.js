@@ -152,6 +152,20 @@ $(function(){
 });
 
 $(function(){
+  $('a.main').on('click', function (e) {
+  e.preventDefault();
+
+  const targetId = $(this).attr('href');
+  const targetOffset = $(targetId).offset().top;
+
+    $('html, body').animate(
+      { scrollTop: targetOffset },
+      600
+    );
+  });
+});
+
+$(function(){
   $('a.menu').on('click', function (e) {
   e.preventDefault();
 
